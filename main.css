@@ -1,107 +1,16 @@
-@charset "UTF-8";
-/* CSS Document */
-
-html, body {
-  margin: 0px;
+body {
+  background: cornflowerblue;
 }
-
-.clear {
-  clear: both;
-}
-
-#wrapper {
-  width: 100%;
-  max-width: 960px;
-  margin: auto;
-}
-
-
-/*---------- HEADER ----------*/
-
-header {
-  height: 300px;
-  width: 100%;
-  background: #e3e3e3;
-}
-
-
-/*---------- CONTENT AREA ----------*/
-
-.col-3 {
-  width: 100%;
-  height: 320px;
-  float: left;
-}
-
-#column-1 {
-  background: crimson;
-}
-
-#column-2 {
-  background: #FFFDD0;
-}
-
-#column-3 {
-  background: #000000;
-}
-
-
-/*---------- FOOTER ----------*/
-
-footer {
-  width: 100%;
-  height: 30px;
-  background: #e3e3e3;
-}
-
-
-/*---------- TABLET ----------*/
-/* Change the background colors below */
-
+/* ----------- For screens 768px and larger ----------- */
 @media (min-width: 768px) {
-  header {
-    background-color: orange;
+	body {
+    background: #ffa500;
   }
-
-  #column-1 {
-    background-color: olive;
-  }
-
-  #column-2 {
-    background-color: indigo;
-  }
-
-  #column-3 {
-    background-color: maroon;
-  }
-
-  footer {
-    background-color: royalblue;
-  }
-  
 }
 
-
-/*---------- Desktops ----------*/
+/* ----------- For screens 1200px wide and larger----------- */
 @media (min-width: 1200px) {
-  header {
-    background-color: ;
+  body {
+    background: magenta;
   }
-
-  #column-1 {
-    background-color: ;
-  }
-
-  #column-2 {
-    background-color: ;
-  }
-
-  #column-3 {
-    background-color: ;
-  }
-
-  footer {
-    background-color: ;
-  }
-   
 }
